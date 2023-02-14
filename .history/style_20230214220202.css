@@ -20,7 +20,9 @@
 
 a{
     text-decoration: none;
-    color: #3C403D; 
+    color: rgb(255, 255, 255);
+    
+
 }
 
 .flex{
@@ -31,19 +33,18 @@ a{
 
 /* Nav section */
 .nav-container{
-    background-color: #A3BCB6;
+    background-color:  #A3BCB6;
     padding: 1rem;
     font-family: 'Bodoni Moda', serif;
     font-size: 1rem;
-    font-weight: bolder;
     height: 3rem;
+
 
 }
 .nav-item{
     gap: 20px;
     list-style: none;
     margin-top: -0.5rem;
-
 }
 a:hover{
     color:#fff;
@@ -153,7 +154,6 @@ footer{
     background-color:  #A3BCB6;
     font-family: 'Bodoni Moda', serif;
     font-size: 1rem;
-    font-weight: bolder;
 }
 footer a{
 margin:  10px;

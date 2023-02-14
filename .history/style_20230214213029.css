@@ -20,7 +20,9 @@
 
 a{
     text-decoration: none;
-    color: #3C403D; 
+    color: rgb(255, 255, 255);
+    
+
 }
 
 .flex{
@@ -31,19 +33,18 @@ a{
 
 /* Nav section */
 .nav-container{
-    background-color: #A3BCB6;
+    background-color: rgb(14, 20, 20);
     padding: 1rem;
     font-family: 'Bodoni Moda', serif;
     font-size: 1rem;
-    font-weight: bolder;
     height: 3rem;
+
 
 }
 .nav-item{
     gap: 20px;
     list-style: none;
-    margin-top: -0.5rem;
-
+    margin-bottom: 10px;
 }
 a:hover{
     color:#fff;
@@ -51,11 +52,10 @@ a:hover{
 
 /*main -section */
 .container{
-    background-color: #F3F3F3 ;
+    background-color: rgb(7, 127, 87);
     padding-block: 10px;
     gap: 35px;
     font-family: "bodoni modo" ;
-   
 
 }
 .header-text{
@@ -68,13 +68,10 @@ a:hover{
 }
 .heading{
     font-size: 49px;
-    color:#266150;
 }
 .para{
     margin-top: 25px;
     font-size: 1.5rem;
-    color:#266150;
-    
 }
 .gallery-layout{
     display: grid;
@@ -150,15 +147,13 @@ a:hover{
 footer{
     height: 50px;
     max-width: 100%;
-    background-color:  #A3BCB6;
+    background-color: rgb(14, 20, 20);
+    padding: var(--padding-inline-section);
     font-family: 'Bodoni Moda', serif;
     font-size: 1rem;
-    font-weight: bolder;
 }
 footer a{
-margin:  10px;
-color:#3C403D;
-
+margin:0 10px;
 }
 /* media queries for Mobile Responsiveness */
 
